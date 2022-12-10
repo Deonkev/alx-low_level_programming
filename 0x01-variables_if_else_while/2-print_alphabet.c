@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main -prints alphabet in lowercase
@@ -7,14 +8,15 @@
 */
 int main(void)
 {
-	char c = "a";
 
-	while (c <=  "z")
+	char c = 'a';
+
+	while (c <=  'z')
 	{
 		putchar(c);
 		c++;
 	}
 
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
